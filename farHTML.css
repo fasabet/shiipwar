@@ -1,26 +1,23 @@
 body {
-    background-color: #babad1;
+    position: static;
+	width: 1024px;
+	height: 863px;
+	margin:auto;
+	
 }
+
 
 h1 {
-    color: navy;
-    margin-left: 32px;
+    color: yellow;
+    margin-left: 300px;
 }
-#board {
-	position:relative;
-	margin:0 auto 2em auto;
-	width:500px;
-	height:500px;
-        background-image: url("41.jpg");
-        
-}
-
-#board div {
-	position:absolute;
-        background
-            
-	background-color: beige; 
-	border: 1px solid graytext;
-	width:50px;
-	height:50px;
+.button{
+                position: relative;
+                width : 95px;
+                height: 95px;
+                cursor: crosshair;
+                
+            }
+.button:hover{
+                background-color :red;
 }

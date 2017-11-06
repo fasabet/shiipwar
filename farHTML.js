@@ -1,7 +1,7 @@
 var rows = 6;
 var colon = 7;
 var squareSize = 50;
-var Board = document.getElementById("board");
+var Board = document.getElementById("board" +cell);
 
 for ($row=1;$row<=6;$row++){
    for($colon=1;$colon<=7;$colon++){
@@ -16,5 +16,5 @@ for ($row=1;$row<=6;$row++){
     echo"<br>";
   }
   function shoot(cell){
-      
+   alert()   
   }
