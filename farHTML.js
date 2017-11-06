@@ -15,3 +15,6 @@ for ($row=1;$row<=6;$row++){
    
     echo"<br>";
   }
+  function shoot(cell){
+      
+  }

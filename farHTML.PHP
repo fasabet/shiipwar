@@ -19,7 +19,7 @@ for ($row=1;$row<=6;$row++){
      
     "<table>";
        echo "<tr>
-                <td id='$cell'>$cell</td>.
+                <td onclik='shoot()' id='$cell'>$cell</td>.
             </tr>";
      //echo "$cell";
     }     
